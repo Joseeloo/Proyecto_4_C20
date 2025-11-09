@@ -8,14 +8,14 @@ Proyecto desarrollado para el Módulo 4 del Bootcamp: Desarrollo Web Full Stack 
 
 - [Introducción general](#introducción-general)
 - [Arquitectura del proyecto](#arquitectura-del-proyecto)
-- [Componentes principales](componentes-principales)
-- [Servicios CRUD y Filtros](servicios-crud-y-filtros)
-- [Documentación Swagger](documentación-swagger)
-- [Estructura de carpetas](estructura-de-carpetas)
-- [Instalación y ejecución](instalación-y-ejecución)
-- [Control de versiones](control-de-versiones)
-- [Tecnologías utilizadas](tecnologías-utilizadas)
-- [Estado del proyecto](estado-del-proyecto)
+- [Componentes principales](#componentes-principales)
+- [Servicios CRUD y Filtros](#servicios-crud-y-filtros)
+- [Documentación Swagger](#documentación-swagger)
+- [Estructura de carpetas](#estructura-de-carpetas)
+- [Instalación y ejecución](#instalación-y-ejecución)
+- [Control de versiones](#control-de-versiones)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Estado del proyecto](#estado-del-proyecto)
 
 # Introducción general
 
@@ -191,6 +191,9 @@ Cumple con todos los requisitos mínimos y entregables:
 | Documentación         | ✅      | Swagger en `/api-docs`                |
 | Control de versiones  | ✅      | Repositorio GitHub                    |
 | Despliegue (opcional) | ✅     | [Render](https://proyecto-4-c20.onrender.com)                   |
+
+# Resultados
+
 
 ---
 
