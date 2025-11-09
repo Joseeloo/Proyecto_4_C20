@@ -190,7 +190,7 @@ Cumple con todos los requisitos mínimos y entregables:
 | Persistencia          | ✅      | Archivo JSON (`reservas.json`)        |
 | Documentación         | ✅      | Swagger en `/api-docs`                |
 | Control de versiones  | ✅      | Repositorio GitHub                    |
-| Despliegue (opcional) | ✅     | [Render](https://proyecto-4-c20.onrender.com)                   |
+| Despliegue (opcional) | ✅     | [Render](https://proyecto-4-c20.onrender.com/api-docs/)                   |
 
 # Resultados
 
