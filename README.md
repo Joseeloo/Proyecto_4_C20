@@ -172,46 +172,48 @@ https://github.com/Joseeloo/Proyecto_4_C20
 - .gitignore configurado para excluir node_modules/ y variables sensibles (.env).
 
 # Tecnologías utilizadas
-- Categoría	Herramienta / Librería
-- Lenguaje	JavaScript (ESM)
-- Entorno	Node.js
-- Framework	Express
-- Documentación API	Swagger UI Express
-- Utilidades	dotenv, uuid, fs/promises
-- Control de versiones	Git + GitHub
-- Despliegue	Render.com
+| Categoría | Herramienta / Librería |
+|------------|------------------------|
+| Lenguaje | JavaScript (ESM) |
+| Entorno | Node.js |
+| Framework | Express |
+| Documentación API | Swagger UI Express |
+| Utilidades | dotenv, uuid, fs/promises |
+| Control de versiones | Git + GitHub |
+| Despliegue | Render.com |
+
 
 # Estado del proyecto
 Cumple con todos los requisitos mínimos y entregables:
 | Criterio              | Cumple | Evidencia                             |
 | --------------------- | ------ | ------------------------------------- |
-| Proyecto individual   | ✅      | Desarrollo propio                     |
-| Arquitectura clara    | ✅      | Estructura modular por capas          |
-| CRUD completo         | ✅      | Endpoints funcionales                 |
-| Filtros múltiples     | ✅      | Implementados en GET con query params |
-| Persistencia          | ✅      | Archivo JSON (`reservas.json`)        |
-| Documentación         | ✅      | Swagger en `/api-docs`                |
-| Control de versiones  | ✅      | Repositorio GitHub                    |
-| Despliegue (opcional) | ✅     | [Render](https://proyecto-4-c20.onrender.com/api-docs/)                   |
+| Proyecto individual   |    ✅   | Desarrollo propio                     |
+| Arquitectura clara    |    ✅   | Estructura modular por capas          |
+| CRUD completo         |    ✅   | Endpoints funcionales                 |
+| Filtros múltiples     |    ✅   | Implementados en GET con query params |
+| Persistencia          |    ✅   | Archivo JSON (`reservas.json`)        |
+| Documentación         |    ✅   | Swagger en `/api-docs`                |
+| Control de versiones  |    ✅   | Repositorio GitHub                    |
+| Despliegue            |    ✅   | [Render](https://proyecto-4-c20.onrender.com/api-docs/)                   |
 
 # Resultados Consultas
 ### 1. Verificar conexión del servidor
-Método: GET
+**Método:** GET
 
-URL:
+**URL:**
 ```
 http://localhost:3000/
 ```
 <img width="1553" height="268" alt="image" src="https://github.com/user-attachments/assets/78acaaae-cca2-42c0-ba62-c07542e851cc" />
 
 ### 2. Crear nueva reserva
-Método: POST
+**Método:** POST
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas
 ```
-Body (JSON):
+**Body (JSON):**
 ```
 {
   "hotel": "Hotel TEST",
@@ -227,31 +229,31 @@ Body (JSON):
 <img width="1548" height="635" alt="image" src="https://github.com/user-attachments/assets/4a8cabbb-11ff-4981-ae91-6c4f839761f4" />
 
 ### 3. Listar todas las reservas
-Método: GET
+**Método:** GET
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas
 ```
 <img width="1547" height="633" alt="image" src="https://github.com/user-attachments/assets/a234c45b-9d64-47c4-9eed-3a19324d5164" />
 
 ### 4. Obtener una reserva específica
-Método: GET
+**Método:** GET
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas/<ID_DE_LA_RESERVA>
 ```
 <img width="1549" height="520" alt="image" src="https://github.com/user-attachments/assets/3e534a0d-da80-4ebc-9d2b-6a1136a610d7" />
 
 ### 5. Actualizar una reserva existente
-Método: PUT
+**Método:** PUT
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas/<ID_DE_LA_RESERVA>
 ```
-Body (JSON):
+**Body (JSON):**
 ```
 {
   "estado": "confirmada",
@@ -262,9 +264,9 @@ Body (JSON):
 <img width="1548" height="633" alt="image" src="https://github.com/user-attachments/assets/b05be950-386a-4334-8eeb-4bcab28ee70a" />
 
 ### 6. Eliminar una reserva
-Método: DELETE
+**Método:** DELETE
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas/<ID_DE_LA_RESERVA>
 ```
@@ -274,58 +276,70 @@ http://localhost:3000/api/reservas/<ID_DE_LA_RESERVA>
 # Resultados Filtros
 
 ### Filtro 1: Por hotel
-Método: GET
+**Método:** GET
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas?hotel=Hotel Paraiso
 ```
 <img width="1553" height="636" alt="image" src="https://github.com/user-attachments/assets/e14dd1df-ec99-4f06-8e07-fbce6695fecd" />
 
 ### Filtro 2: Por rango de fechas
-Método: GET
+**Método:** GET
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas?fecha_inicio=2025-05-01&fecha_fin=2025-05-31
 ```
 <img width="1545" height="636" alt="image" src="https://github.com/user-attachments/assets/e257e956-a94b-443c-b031-d4005badfe95" />
 
 ### Filtro 3: Por tipo de habitación
-Método: GET
+**Método:** GET
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas?tipo_habitacion=suite
 ```
 <img width="1543" height="627" alt="image" src="https://github.com/user-attachments/assets/ed17a3b2-c2a8-49ba-b34d-f5b2bd7dc80d" />
 
 ### Filtro 4: Por estado
-Método: GET
+**Método:** GET
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas?estado=pendiente_pago
 ```
 <img width="1545" height="629" alt="image" src="https://github.com/user-attachments/assets/bc9c0312-0e2c-4893-aafb-af86e6dd0add" />
 
 ### Filtro 5: Por número de huéspedes
-Método: GET
+**Método:** GET
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas?num_huespedes=5
 ```
 <img width="1552" height="636" alt="image" src="https://github.com/user-attachments/assets/5439945d-fa6a-4b1f-8918-0905831e4571" />
 
 ### Errores esperados
-Método: GET
+**Método:** GET
 
-URL:
+**URL:**
 ```
 http://localhost:3000/api/reservas/999999
 ```
 <img width="1547" height="283" alt="image" src="https://github.com/user-attachments/assets/06af78eb-6c9e-4c8b-8d3c-5d4fe60bac9b" />
+
+### Despliegue en Render
+La API se encuentra desplegada y funcionando en la nube a través de **Render.com**.
+
+**Enlace base:** 
+- [https://proyecto-4-c20.onrender.com](https://proyecto-4-c20.onrender.com)
+
+**Documentación Swagger:**  
+- [https://proyecto-4-c20.onrender.com/api-docs](https://proyecto-4-c20.onrender.com/api-docs)
+
+> Puedes probar los endpoints directamente desde la interfaz Swagger sin necesidad de Postman o Thunder Client.
+
 
 ---
 
