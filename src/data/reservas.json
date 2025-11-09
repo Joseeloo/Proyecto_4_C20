@@ -1,0 +1,233 @@
+[
+  {
+    "id": "d998ce6f-a342-408b-9040-a5136295cbc9",
+    "hotel": "Hotel Paraiso",
+    "fecha_inicio": "2025-05-15",
+    "fecha_fin": "2025-05-20",
+    "tipo_habitacion": "doble",
+    "num_huespedes": 2,
+    "estado": "pendiente_pago",
+    "nombre_cliente": "Martin Rivas",
+    "email_cliente": "martin@example.com"
+  },
+  {
+    "id": "d998ce6f-a342-408b-9040-a5136295cbc9",
+    "hotel": "Hotel Paraiso",
+    "fecha_inicio": "2025-05-15",
+    "fecha_fin": "2025-05-20",
+    "tipo_habitacion": "doble",
+    "num_huespedes": 3,
+    "estado": "pendiente_pago",
+    "nombre_cliente": "Juan Pérez",
+    "email_cliente": "juan@example.com"
+  },
+  {
+    "id": "a4b3e3c1-56a1-4d20-9b5f-9e2f1a78c512",
+    "hotel": "Hotel Andino",
+    "fecha_inicio": "2025-06-02",
+    "fecha_fin": "2025-06-05",
+    "tipo_habitacion": "suite",
+    "num_huespedes": 2,
+    "estado": "confirmada",
+    "nombre_cliente": "María López",
+    "email_cliente": "maria@example.com"
+  },
+  {
+    "id": "c2baf8e9-841f-4c88-96e9-991e04ab4a22",
+    "hotel": "Hotel del Lago",
+    "fecha_inicio": "2025-07-10",
+    "fecha_fin": "2025-07-15",
+    "tipo_habitacion": "simple",
+    "num_huespedes": 1,
+    "estado": "pendiente_pago",
+    "nombre_cliente": "Carlos Ruiz",
+    "email_cliente": "carlos.ruiz@example.com"
+  },
+  {
+    "id": "dc1ad8a7-2e2a-49e7-bd69-940c6d327b01",
+    "hotel": "Hotel Cordillera",
+    "fecha_inicio": "2025-08-20",
+    "fecha_fin": "2025-08-25",
+    "tipo_habitacion": "doble",
+    "num_huespedes": 2,
+    "estado": "cancelada",
+    "nombre_cliente": "Fernanda Soto",
+    "email_cliente": "fernanda@example.com"
+  },
+  {
+    "id": "a5d12712-67b1-4d7c-8bc9-2c80134b62aa",
+    "hotel": "Hotel del Sol",
+    "fecha_inicio": "2025-09-01",
+    "fecha_fin": "2025-09-04",
+    "tipo_habitacion": "suite",
+    "num_huespedes": 2,
+    "estado": "confirmada",
+    "nombre_cliente": "Andrés Molina",
+    "email_cliente": "andres@example.com"
+  },
+  {
+    "id": "ee482f61-6f94-4a0b-b43f-0bff8ad71d4e",
+    "hotel": "Hotel Paraiso",
+    "fecha_inicio": "2025-05-25",
+    "fecha_fin": "2025-05-30",
+    "tipo_habitacion": "familiar",
+    "num_huespedes": 4,
+    "estado": "pendiente_pago",
+    "nombre_cliente": "Lucía Herrera",
+    "email_cliente": "lucia@example.com"
+  },
+  {
+    "id": "b9c6436b-bad1-43ab-b6d3-6ed4e2394cd2",
+    "hotel": "Hotel Andino",
+    "fecha_inicio": "2025-06-15",
+    "fecha_fin": "2025-06-20",
+    "tipo_habitacion": "doble",
+    "num_huespedes": 2,
+    "estado": "confirmada",
+    "nombre_cliente": "Pedro Cáceres",
+    "email_cliente": "pedro@example.com"
+  },
+  {
+    "id": "ab93fa33-78b3-41b8-a2de-3a45911e1c62",
+    "hotel": "Hotel Cordillera",
+    "fecha_inicio": "2025-07-05",
+    "fecha_fin": "2025-07-10",
+    "tipo_habitacion": "suite",
+    "num_huespedes": 3,
+    "estado": "confirmada",
+    "nombre_cliente": "Claudia Gómez",
+    "email_cliente": "claudia@example.com"
+  },
+  {
+    "id": "d0f92f91-1a3f-4b09-ae89-b6a1eb35b6e1",
+    "hotel": "Hotel del Lago",
+    "fecha_inicio": "2025-08-10",
+    "fecha_fin": "2025-08-12",
+    "tipo_habitacion": "simple",
+    "num_huespedes": 1,
+    "estado": "pendiente_pago",
+    "nombre_cliente": "Rafael Araya",
+    "email_cliente": "rafael@example.com"
+  },
+  {
+    "id": "ef7180a2-5c24-4a6c-82c0-25b38b05f142",
+    "hotel": "Hotel del Sol",
+    "fecha_inicio": "2025-09-20",
+    "fecha_fin": "2025-09-25",
+    "tipo_habitacion": "doble",
+    "num_huespedes": 2,
+    "estado": "confirmada",
+    "nombre_cliente": "Gabriela Díaz",
+    "email_cliente": "gabriela@example.com"
+  },
+  {
+    "id": "ccf1a75c-74f0-4b49-9f5d-61e2f9a998d3",
+    "hotel": "Hotel Paraiso",
+    "fecha_inicio": "2025-10-05",
+    "fecha_fin": "2025-10-10",
+    "tipo_habitacion": "suite",
+    "num_huespedes": 4,
+    "estado": "pendiente_pago",
+    "nombre_cliente": "Sofía Núñez",
+    "email_cliente": "sofia@example.com"
+  },
+  {
+    "id": "b6f24a74-babe-4eb7-bdcb-514b93a29a8d",
+    "hotel": "Hotel Andino",
+    "fecha_inicio": "2025-07-22",
+    "fecha_fin": "2025-07-27",
+    "tipo_habitacion": "doble",
+    "num_huespedes": 2,
+    "estado": "cancelada",
+    "nombre_cliente": "Matías Fuentes",
+    "email_cliente": "matias@example.com"
+  },
+  {
+    "id": "a8a3774a-99ee-4b8b-92ed-c303786d5cc1",
+    "hotel": "Hotel del Lago",
+    "fecha_inicio": "2025-11-01",
+    "fecha_fin": "2025-11-05",
+    "tipo_habitacion": "suite",
+    "num_huespedes": 2,
+    "estado": "confirmada",
+    "nombre_cliente": "Valentina Torres",
+    "email_cliente": "valentina@example.com"
+  },
+  {
+    "id": "d42b4c97-fbb2-40f7-9554-42f7e833cd56",
+    "hotel": "Hotel Cordillera",
+    "fecha_inicio": "2025-12-10",
+    "fecha_fin": "2025-12-15",
+    "tipo_habitacion": "familiar",
+    "num_huespedes": 5,
+    "estado": "pendiente_pago",
+    "nombre_cliente": "Ignacio Morales",
+    "email_cliente": "ignacio@example.com"
+  },
+  {
+    "id": "be6a84c9-6b9d-4bdf-912e-3abf3b646e3a",
+    "hotel": "Hotel del Sol",
+    "fecha_inicio": "2025-05-10",
+    "fecha_fin": "2025-05-13",
+    "tipo_habitacion": "simple",
+    "num_huespedes": 1,
+    "estado": "confirmada",
+    "nombre_cliente": "Antonia Rivas",
+    "email_cliente": "antonia@example.com"
+  },
+  {
+    "id": "ea0c8f1c-9a83-4f60-89a2-3b2d8f2d7e12",
+    "hotel": "Hotel Paraiso",
+    "fecha_inicio": "2025-06-12",
+    "fecha_fin": "2025-06-18",
+    "tipo_habitacion": "suite",
+    "num_huespedes": 2,
+    "estado": "confirmada",
+    "nombre_cliente": "Felipe Contreras",
+    "email_cliente": "felipe@example.com"
+  },
+  {
+    "id": "e2e4a7e5-b4de-4a7c-94cf-640c6d9f6a71",
+    "hotel": "Hotel Andino",
+    "fecha_inicio": "2025-09-12",
+    "fecha_fin": "2025-09-16",
+    "tipo_habitacion": "familiar",
+    "num_huespedes": 5,
+    "estado": "pendiente_pago",
+    "nombre_cliente": "Daniela Castro",
+    "email_cliente": "daniela@example.com"
+  },
+  {
+    "id": "f8d8f3b3-c40c-44a2-b6da-124f8824d2a7",
+    "hotel": "Hotel del Lago",
+    "fecha_inicio": "2025-10-01",
+    "fecha_fin": "2025-10-05",
+    "tipo_habitacion": "doble",
+    "num_huespedes": 2,
+    "estado": "confirmada",
+    "nombre_cliente": "Esteban Rojas",
+    "email_cliente": "esteban@example.com"
+  },
+  {
+    "id": "a73d6b33-cf74-46a7-b8c2-55ffb9b64b90",
+    "hotel": "Hotel Cordillera",
+    "fecha_inicio": "2025-08-01",
+    "fecha_fin": "2025-08-04",
+    "tipo_habitacion": "simple",
+    "num_huespedes": 1,
+    "estado": "pendiente_pago",
+    "nombre_cliente": "Camila Reyes",
+    "email_cliente": "camila@example.com"
+  },
+  {
+    "id": "d28a9929-c066-4b54-9c36-424939ceea0c",
+    "hotel": "Hotel del Sol",
+    "fecha_inicio": "2025-07-01",
+    "fecha_fin": "2025-07-07",
+    "tipo_habitacion": "familiar",
+    "num_huespedes": 6,
+    "estado": "confirmada",
+    "nombre_cliente": "Ricardo Vargas",
+    "email_cliente": "ricardo@example.com"
+  }
+]
